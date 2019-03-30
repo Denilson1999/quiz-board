@@ -15,9 +15,7 @@
     <ul class="nav navbar-nav navbar-right">
       <li><a href="help.html">Help</a></li>
       <li><a href="contact.html">Contact</a></li>
-
     </ul>
-
   </div>
   <div class="container">
     <h1>Computer Club</h1>
@@ -26,16 +24,26 @@
         <h1 class="panel-title">Lets Answer Some Few Questions</h1>
       </div>
       <div class="panel-body">
+          <form class="" action="index.html" method="post">
+            <div class="row">
+              <div class="col-xs-2">
+                <div class="form-group">
+                  <label for="name">What is your name</label>
+                  <input id="name" class="form-control" type="text" placeholder="your name">
+                </div>
+              </div>
+            </div>
+          </form>
         <h1>Quiz Board</h1>
         <form id="quiz" action="index.html" method="post" name="quiz">
           <div class="well">
             <p>Which datatype will return either of two values i.e. true or false. (10mks)</p>
-            <label><input type="radio" name="quiz4" value="10" checked>Booleans</label>
+            <label><input type="radio" name="quiz4" value="10">Booleans</label>
             <label><input type="radio" name="quiz4" value="0">Parametes</label>
           </div>
           <div class="well">
             <p>What is the short form of HTML(5mks)</p>
-            <label><input type="radio" name="quiz1" value="5" checked>HTML</label>
+            <label><input type="radio" name="quiz1" value="5">HTML</label>
             <label><input type="radio" name="quiz1" value="0">MLHT</label>
             <label><input type="radio" name="quiz1" value="0">HMLT</label>
           </div>
@@ -43,25 +51,25 @@
             <p>What is the other name for Javascript(10mks)</p>
             <label><input type="radio" name="quiz2" value="0">ECMAscript</label>
             <label><input type="radio" name="quiz2" value="0">I dont know</label>
-            <label><input type="radio" name="quiz2" value="10" checked>JS</label>
+            <label><input type="radio" name="quiz2" value="10">JS</label>
           </div>
           <div class="well">
             <p>Is C++ a low level language(5mks)</p>
-            <label><input type="radio" name="quiz3" value="5" checked>yes</label>
+            <label><input type="radio" name="quiz3" value="5">yes</label>
             <label><input type="radio" name="quiz3" value="0">no</label>
           </div>
+          <button type="submit" class="btn btn-primary" name="button">submit</button>
+        </form>
       </div>
-      <button type="submit" class="btn btn-primary" name="button">submit</button>
-      </form>
     </div>
     <div id="hide">
-      <p>Here is your resuts</p>
-      <div id="results"></div>
+      <div class="well">
+        <p>Here is your resuts</p>
+        <div id="results"></div>
+      </div>
+
     </div>
-
   </div>
-
-
 </body>
 
 </html>
