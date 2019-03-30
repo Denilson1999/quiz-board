@@ -6,15 +6,16 @@ $(document).ready(function() {
     var language = parseInt($("input:radio[name=quiz3]:checked").val());
     var booleans = parseInt($("input:radio[name=quiz4]:checked").val());
     var display = parseInt((shortForm + js + language + booleans) / 30 * 100);
+    var name = $("input#name").val();
       event.preventDefault();
     $("hide").slideDown();
-    $("#results").text("your score is : "+display + "%");
+    $("#results").text( name + " your score is : " + display + "%");
 
 
 
 
 
 
-  })
+  });
 
-})
+});
