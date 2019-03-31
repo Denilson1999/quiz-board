@@ -10,7 +10,7 @@
   <title>quiz board</title>
 </head>
 
-<body>
+<body style="background-image: url('images/grey.jpg'); background-size: cover;">
   <div class="navbar navbar-inverse">
     <ul class="nav navbar-nav navbar-right">
       <li><a href="help.html">Help</a></li>
@@ -24,20 +24,18 @@
         <h1 class="panel-title">Lets Answer Some Few Questions</h1>
       </div>
       <div class="panel-body">
-          <form class="" action="index.html" method="post">
-            <div class="row">
-              <div class="col-xs-2">
-                <div class="form-group">
-                  <label for="name">What is your name</label>
-                  <input id="name" class="form-control" type="text" placeholder="your name">
-                </div>
+        <form class="" action="index.html" method="post">
+          <div class="row">
+            <div class="col-xs-2">
+              <div class="form-group">
+                <label for="name">What is your name</label>
+                <input id="name" class="form-control" type="text" placeholder="your name">
               </div>
             </div>
-          </form>
+          </div>
+        </form>
         <h1>Quiz Board</h1>
         <form id="quiz" action="index.html" method="post" name="quiz">
-
-
           <div class="well">
             <p>What is the short form of HTML(5mks)</p>
             <label><input type="radio" name="quiz1" value="5">HTML</label>
@@ -47,7 +45,6 @@
           <div class="well">
             <p>What is the other name for Javascript(10mks)</p>
             <label><input type="radio" name="quiz2" value="0">ECMAscript</label>
-            <label><input type="radio" name="quiz2" value="0">I dont know</label>
             <label><input type="radio" name="quiz2" value="10">JS</label>
           </div>
           <div class="well">
@@ -56,9 +53,9 @@
             <label><input type="radio" name="quiz3" value="0">no</label>
           </div>
           <div class="well">
-            <p>Which datatype will return either of two values i.e. true or false. (10mks)</p>
-            <label><input type="radio" name="quiz4" value="10">Booleans</label>
-            <label><input type="radio" name="quiz4" value="0">Parametes</label>
+            <p>Which data type will return either of two values i.e true or false(10mks)</p>
+            <label><input type="radio" name="quiz4" value="10">booleans</label>
+            <label><input type="radio" name="quiz4" value="0">parameters</label>
           </div>
           <div class="well">
             <p>Which statement stops the execution of a function and returns a value from that function. (10mks)</p>
@@ -76,7 +73,10 @@
       </div>
 
     </div>
+    <div class="panel-footer">
+      <p style="color: black;">&copy copyright | designed by <a href="mailto:denilsonmakotsi@gmail.com">Denilson</a></p>
   </div>
+
 </body>
 
 </html>
