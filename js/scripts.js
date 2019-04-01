@@ -4,7 +4,8 @@ $(document).ready(function() {
     var js = parseInt($("input:radio[name=quiz2]:checked").val());
     var language = parseInt($("input:radio[name=quiz3]:checked").val());
     var booleans = parseInt($("input:radio[name=quiz4]:checked").val());
-    var display = parseInt((shortForm + js + language + booleans) / 30 * 100);
+    var deno = parseInt($("input:radio[name=quiz5]:checked").val());
+    var display = parseInt((shortForm + js + language + booleans + deno) / 40 * 100);
     var name = $("input#name").val();
       event.preventDefault();
     $("hide").slideDown();
