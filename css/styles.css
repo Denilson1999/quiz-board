@@ -1,5 +1,5 @@
 #hide {
-  color: grey;
+  color: #010b13;
   font-size: 32px;
   background: greenyellow;
 }
@@ -27,5 +27,8 @@ label {
 }
 .panel-footer{
   text-align: center;
-  background-color: black;
+  background-color: black
+}
+body{
+  background-color: #010b13;
 }
