@@ -18,5 +18,5 @@ This is a question and answer website where members of the Computer club answer 
 ## Support and contact details
 (denilsonmakotsi@gmail.com)
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+[MIT](https://choosealicense.com/licenses/mit/)
 Copyright (c) {2019} **Denilson Makotsi**
