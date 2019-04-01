@@ -13,7 +13,7 @@ This is a question and answer website where members of the Computer club answer 
 * The page will not load if theres no internet connection
 * When the answers fail to be submitted the student is required to repeat the whole process of selecting the multiple questions.
 ## Technologies Used
-* The language used was HTMl, BOOTSTRAP 3 was used to style the page.
+* The language used was HTML, BOOTSTRAP 3 was used to style the page.
 * JQUERY, did the backend results after submission of the answers
 ## Support and contact details
 (denilsonmakotsi@gmail.com)
