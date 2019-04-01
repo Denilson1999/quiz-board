@@ -1,4 +1,31 @@
-#hide{
+#hide {
   color: grey;
   font-size: 32px;
+  background: greenyellow;
+}
+
+.well {
+  background-color: #d3b17d;
+}
+
+p1 {
+  color: #8fd0d0;
+}
+
+.panel-body {
+  background-color: #c3c49a;
+}
+
+h1 {
+  font: 2rem 'AmstelvarAlpha', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+label {
+  font: 2rem monospace;
+  color: blue;
+}
+.panel-footer{
+  text-align: center;
+  background-color: black;
 }
